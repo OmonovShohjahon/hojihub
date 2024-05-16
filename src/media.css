@@ -1,0 +1,17 @@
+@media (max-width: 450px) {
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+        text-align: center;
+    }
+    .header {
+        font-size: 45px;
+    }
+    .cards .container {
+        display: flex;
+        flex-wrap:wrap ;
+    }
+
+}
